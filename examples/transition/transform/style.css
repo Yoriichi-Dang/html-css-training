@@ -1,0 +1,25 @@
+.square {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  margin-top: 4px;
+  background: cornflowerblue;
+
+  opacity: 0.5;
+  transform: scale(1) rotate(0);
+}
+
+.square.has-transition {
+  transition: transform 750ms ease-in-out 0s;
+}
+
+.square:is(:hover, :focus) {
+  transform: scale(1.5) rotate(135deg);
+}
+
+
+/* Decorative styles */
+body {
+  display: grid;
+  place-items: center;
+}
