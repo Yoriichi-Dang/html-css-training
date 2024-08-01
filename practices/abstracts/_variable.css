@@ -1,0 +1,22 @@
+:root{
+    --bg-color:#f2f4f9;
+    --white-color:#fff;
+    --black-color:#011222;
+    --primary-color-600:#02071a;
+    --primary-color-500:#020920;
+    --primary-color-400:#15214b;
+    --primary-color-300:#273975;
+    --primary-color-200:#3a52a0;
+    --primary-color-100:#4c6aca;
+    --gray-color-100:#5B6B7A;
+    --gray-color-200:#BDBDBD;
+    --gray-color-300:#E0E0E0;
+    --secondary-color-500:#FF9D29;
+    --secondary-color-400:#ffb154;
+    --secondary-color-300:#ffc47f;
+    --secondary-color-200:#ffd8a9;
+    --secondary-color-100:#ffebd4;
+    --accent-color-500:#FA1D1D;
+    --accent-color-400:#fb4a4a;
+    --accent-color-300:#fc7777; 
+}
