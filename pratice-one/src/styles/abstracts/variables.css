@@ -19,4 +19,19 @@
     --accent-color-500:#FA1D1D;
     --accent-color-400:#fb4a4a;
     --accent-color-300:#fc7777;
+    --font-size-xs: 8px;
+    --font-size-sm: 12px;
+    --font-size-base: 16px;
+    --font-size-md: 18px;
+    --font-size-lg: 24px;
+    --font-size-xl: 32px;
+    --font-size-2xl: 32px;
+    --font-size-3xl: 56px;
+    --font-size-4xl: 70px;
+    --font-size-5xl: 98px;
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
 }

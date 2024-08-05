@@ -79,7 +79,7 @@ The [`src/styles`]
 
 -   **Base**: Base styles and font imports.
 -   **Components**: Styles for individual components.
--   **Abstracts**: Variables and mixins.
+-   **Abstracts**: Variables and mixing.
 -   **Layouts**: Layout styles like header, footer, and navbar.
 -   **Pages**: Page-specific styles.
 -   **Vendors**: Third-party styles like Normalize.css.

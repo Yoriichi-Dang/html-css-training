@@ -1,14 +1,16 @@
-@import url(base/_base.css);
-@import url(base/_font.css);
+@import url(vendors/normalize.css);
 
-@import url(components/_button.css);
+@import url(abstracts/variables.css);
 
-@import url(abstracts/_variables.css);
+@import url(base/font.css);
+@import url(base/base.css);
 
-@import url(layouts/_header.css);
-@import url(layouts/_footer.css);
-@import url(layouts/_navbar.css);
+@import url(components/button.css);
+@import url(components/card.css);
 
-@import url(pages/_home.css);
+@import url(layouts/header.css);
+@import url(layouts/navbar.css);
+@import url(layouts/footer.css);
 
-@import url(vendors/_normalize.css);
+@import url(pages/home.css);
+
