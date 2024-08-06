@@ -3,19 +3,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    aspect-ratio: 4/1;
 clip-path: polygon(0 0, 94% 0, 100% 22%, 100% 100%, 6% 100%, 0 77%);
     transition: all 0.3s ease;
     cursor: pointer;
 }
-.btn span{
+.btn .btn__line{
     width:16px;
     height: 2px;
     background: var(--gray-color-200);
     margin-left:12px;
     transition:  width 0.3s ease-in-out;
 }
-.btn p{
+.btn .btn__content{
     color:var( --gray-color-200);
     font-size:var(--font-size-base);
     font-weight: 700;
@@ -43,6 +42,13 @@ clip-path: polygon(0 0, 94% 0, 100% 22%, 100% 100%, 6% 100%, 0 77%);
 }
 .btn--circle{
     border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+.btn--square{
+    aspect-ratio: 1/1;
+}
+.btn--rectangle{
+    aspect-ratio: 4/1;
 }
 .btn-icon{
     display: flex;
@@ -50,7 +56,6 @@ clip-path: polygon(0 0, 94% 0, 100% 22%, 100% 100%, 6% 100%, 0 77%);
     align-items: center;
     background: var(--secondary-color-100);
     border:2px solid var(--secondary-color-500);
-    aspect-ratio: 1/1;
     transition: all 0.3s ease-in-out;
 }
 .btn-icon i{
