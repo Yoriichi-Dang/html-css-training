@@ -1,77 +1,75 @@
 /* define btn */
-.btn{
+.btn {
     background: var(--gray-color-300);
     display: flex;
     justify-content: center;
     align-items: center;
-clip-path: polygon(0 0, 94% 0, 100% 22%, 100% 100%, 6% 100%, 0 77%);
+    clip-path: polygon(0 0, 94% 0, 100% 22%, 100% 100%, 6% 100%, 0 77%);
     transition: all 0.3s ease;
     cursor: pointer;
 }
-.btn .btn__line{
-    width:16px;
+.btn .btn__line {
+    width: 16px;
     height: 2px;
     background: var(--gray-color-200);
-    margin-left:12px;
-    transition:  width 0.3s ease-in-out;
+    margin-left: 12px;
+    transition: width 0.3s ease-in-out;
 }
-.btn .btn__content{
-    color:var( --gray-color-200);
-    font-size:var(--font-size-base);
+.btn .btn__content {
+    color: var(--gray-color-200);
+    font-size: var(--font-size-base);
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
 }
 /* btn hover */
-.btn:hover{
-    background: var( --secondary-color-500);
+.btn:hover {
+    background: var(--secondary-color-500);
 }
-.btn:hover .btn__content
-{
-    color:var(--white-color);
+.btn:hover .btn__content {
+    color: var(--white-color);
 }
-.btn:hover .btn__line{
+.btn:hover .btn__line {
     background: var(--white-color);
-    width:32px;
+    width: 32px;
 }
 /* define btn icon */
-.btn-icon{
+.btn-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     background: var(--secondary-color-100);
-    border:2px solid var(--secondary-color-500);
+    border: 2px solid var(--secondary-color-500);
     transition: all 0.3s ease-in-out;
 }
-.btn-icon .icon{
-    color:var(--secondary-color-500);
-    font-size:35px;
+.btn-icon .icon {
+    color: var(--secondary-color-500);
+    font-size: 35px;
 }
 /* btn icon hover */
-.btn-icon:hover{
+.btn-icon:hover {
     background: var(--secondary-color-500);
 }
-.btn-icon:hover .icon{
-    color:var(--white-color);
+.btn-icon:hover .icon {
+    color: var(--white-color);
 }
 /* size of btn*/
-.btn--sm{
+.btn--sm {
     height: 52px;
 }
-.btn--md{
-    height:60px;
+.btn--md {
+    height: 60px;
 }
-.btn--lg{
+.btn--lg {
     height: 64px;
 }
 /* shape of btn*/
-.btn--circle{
+.btn--circle {
     border-radius: 50%;
     aspect-ratio: 1/1;
 }
-.btn--square{
+.btn--square {
     aspect-ratio: 1/1;
 }
-.btn--rectangle{
+.btn--rectangle {
     aspect-ratio: 4/1;
 }
-
