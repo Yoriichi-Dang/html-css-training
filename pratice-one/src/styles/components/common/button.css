@@ -1,3 +1,4 @@
+/* define btn */
 .btn{
     background: var(--gray-color-300);
     display: flex;
@@ -20,17 +21,39 @@ clip-path: polygon(0 0, 94% 0, 100% 22%, 100% 100%, 6% 100%, 0 77%);
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
 }
+/* btn hover */
 .btn:hover{
     background: var( --secondary-color-500);
 }
-.btn:hover p
+.btn:hover .btn__content
 {
     color:var(--white-color);
 }
-.btn:hover span{
+.btn:hover .btn__line{
     background: var(--white-color);
     width:32px;
 }
+/* define btn icon */
+.btn-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--secondary-color-100);
+    border:2px solid var(--secondary-color-500);
+    transition: all 0.3s ease-in-out;
+}
+.btn-icon .icon{
+    color:var(--secondary-color-500);
+    font-size:35px;
+}
+/* btn icon hover */
+.btn-icon:hover{
+    background: var(--secondary-color-500);
+}
+.btn-icon:hover .icon{
+    color:var(--white-color);
+}
+/* size of btn*/
 .btn--sm{
     height: 52px;
 }
@@ -40,6 +63,7 @@ clip-path: polygon(0 0, 94% 0, 100% 22%, 100% 100%, 6% 100%, 0 77%);
 .btn--lg{
     height: 64px;
 }
+/* shape of btn*/
 .btn--circle{
     border-radius: 50%;
     aspect-ratio: 1/1;
@@ -50,21 +74,4 @@ clip-path: polygon(0 0, 94% 0, 100% 22%, 100% 100%, 6% 100%, 0 77%);
 .btn--rectangle{
     aspect-ratio: 4/1;
 }
-.btn-icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: var(--secondary-color-100);
-    border:2px solid var(--secondary-color-500);
-    transition: all 0.3s ease-in-out;
-}
-.btn-icon i{
-    color:var(--secondary-color-500);
-    font-size:35px;
-}
-.btn-icon:hover{
-    background: var(--secondary-color-500);
-}
-.btn-icon:hover i{
-    color:var(--white-color);
-}
+
