@@ -1,0 +1,65 @@
+.btn{
+    background: var(--gray-color-300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 4/1;
+clip-path: polygon(0 0, 94% 0, 100% 22%, 100% 100%, 6% 100%, 0 77%);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.btn span{
+    width:16px;
+    height: 2px;
+    background: var(--gray-color-200);
+    margin-left:12px;
+    transition:  width 0.3s ease-in-out;
+}
+.btn p{
+    color:var( --gray-color-200);
+    font-size:var(--font-size-base);
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+.btn:hover{
+    background: var( --secondary-color-500);
+}
+.btn:hover p
+{
+    color:var(--white-color);
+}
+.btn:hover span{
+    background: var(--white-color);
+    width:32px;
+}
+.btn--sm{
+    height: 52px;
+}
+.btn--md{
+    height:60px;
+}
+.btn--lg{
+    height: 64px;
+}
+.btn--circle{
+    border-radius: 50%;
+}
+.btn-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--secondary-color-100);
+    border:2px solid var(--secondary-color-500);
+    aspect-ratio: 1/1;
+    transition: all 0.3s ease-in-out;
+}
+.btn-icon i{
+    color:var(--secondary-color-500);
+    font-size:35px;
+}
+.btn-icon:hover{
+    background: var(--secondary-color-500);
+}
+.btn-icon:hover i{
+    color:var(--white-color);
+}
