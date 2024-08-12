@@ -62,6 +62,9 @@
 .btn--lg {
     height: 64px;
 }
+.btn--xl {
+    height: 68px;
+}
 /* shape of btn*/
 .btn--circle {
     border-radius: 50%;
