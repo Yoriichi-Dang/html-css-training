@@ -6,6 +6,7 @@
 @import url(base/fonts.css);
 
 @import url(components/common/button.css);
+@import url(components/common/icon.css);
 
 @import url(layouts/header.css);
 @import url(layouts/navbar.css);
