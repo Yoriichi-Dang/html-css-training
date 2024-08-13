@@ -1,0 +1,118 @@
+.about_us {
+    height: 608px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 190px;
+}
+.about_us .about_us-container {
+    height: 100%;
+    width: 657px;
+    margin-right: 101px;
+}
+.about_us .about_us-img {
+    position: relative;
+    height: 100%;
+    width: 600px;
+    background: url("../../assets/images/driver.png") no-repeat;
+    background-size: 140%;
+    background-position: center;
+}
+.about_us .about_us-img .btn-icon {
+    position: absolute;
+    transform: translate(-50%, 130%);
+}
+.about_us-content .about_us-content__title {
+    color: var(--accent-color-500);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.about_us-content .about_us-content__subtitle {
+    text-transform: uppercase;
+    font-family: "Atkinson Bold", sans-serif;
+    font-size: 52px;
+    margin-top: 16px;
+}
+.about_us-content .about_us-content__desc {
+    color: var(--gray-color-100);
+    font-family: "Open Sans", sans-serif;
+    font-size: var(--font-size-md);
+    line-height: 30px;
+}
+.about_us-content .about_us-content__desc + .about_us-content__desc {
+    margin-top: 16px;
+}
+.about_us-content .about_us-content__desc:first-of-type {
+    margin-top: 32px;
+}
+.about_us-icon {
+    display: flex;
+    gap: 40px;
+    margin-top: 32px;
+}
+.about_us-icon__item {
+    display: flex;
+    align-items: center;
+}
+.icon-wrapper {
+    margin-right: 24px;
+    transition: all 0.3s ease-out;
+}
+.about_us-icon__item .about_us-icon__item-title {
+    font-family: "Atkinson Bold", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-out;
+}
+.about_us-icon__item:hover .icon-wrapper {
+    background: var(--secondary-color-500);
+}
+.about_us-icon__item:hover .about_us-icon__item-title {
+    color: var(--secondary-color-500);
+}
+.divider {
+    width: 100%;
+    height: 1px;
+    margin-top: 32px;
+    background: var(--gray-color-200);
+}
+.about_us-profile {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.about_us-profile__info {
+    display: flex;
+}
+.about_us-profile__info .about_us-profile__img {
+    width: 60px;
+    height: 60px;
+    background: url("../../assets/images/restaurateur.png") no-repeat;
+    background-size: 300%;
+    border-radius: 50%;
+    background-position: top left -49px;
+    margin-right: 16px;
+}
+.about_us-profile__info .about_us-profile__text .about_us-profile__name {
+    margin-bottom: 8px;
+    font-family: "Atkinson Bold", sans-serif;
+    text-transform: uppercase;
+    font-size: var(--font-size-md);
+}
+.about_us-profile__info .about_us-profile__text .about_us-profile__position {
+    font-family: "Open Sans", sans-serif;
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    color: var(--accent-color-500);
+}
+.about_us-profile .about_us-profile__signature {
+    font-size: 36px;
+    color: var(--accent-color-500);
+    font-family: "WindSong", sans-serif;
+}
