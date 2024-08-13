@@ -1,120 +1,124 @@
-.hero{
+.hero {
     width: 100%;
-    display:flex;
+    display: flex;
     justify-content: flex-end;
-    margin-top:32px;
+    margin-top: 32px;
 }
-.hero-container{
+.hero-container {
     width: 625px;
-    display:flex;
+    display: flex;
     align-items: center;
 }
-.hero-content{
-    margin-top:76px;
+.hero-content {
+    margin-top: 76px;
 }
-.hero-content h2{
-    color:var(--accent-color-500);
-    font-family: 'Open Sans', sans-serif;
-    font-size:22px;
+.hero-content h2 {
+    color: var(--accent-color-500);
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-.hero-content h1{
-    font-size:var(--font-size-5xl);
+.hero-content h1 {
+    font-size: var(--font-size-5xl);
     text-transform: uppercase;
-    font-family: "Atkinson Bold" , sans-serif;
+    font-family: "Atkinson Bold", sans-serif;
 }
 
-.hero-img{
+.hero-img {
     background: url("../../assets/images/hero.png") no-repeat left;
     background-size: cover;
-   height:838px;
+    height: 838px;
     aspect-ratio: 1/1.15;
     position: relative;
 }
-.hero-img__sub{
+.hero-img__sub {
     position: absolute;
-    bottom:0;
-    right:0;
+    bottom: 0;
+    right: 0;
     background: var(--primary-color-500);
     display: flex;
     align-items: center;
-    width:322px;
+    width: 322px;
     height: 139px;
     clip-path: polygon(13% 0, 100% 0, 100% 25%, 100% 100%, 0 100%, 0 32%);
 }
-.hero-img__sub-info{
-    padding:32px;
+.hero-img__sub-info {
+    padding: 32px;
     position: relative;
     width: 100%;
 }
 
-.hero-img__sub-info h4{
-    color:var(--white-color);
+.hero-img__sub-info h4 {
+    color: var(--white-color);
     text-transform: uppercase;
-    font-family: "Akinton Bold" , sans-serif;
-    font-size:20px;
+    font-family: "Akinton Bold", sans-serif;
+    font-size: 20px;
 }
-.hero-img__sub-info span{
-    color:var(--accent-color-500);
+.hero-img__sub-info span {
+    color: var(--accent-color-500);
 }
-.hero-img__sub-info__img{
+.hero-img__sub-info__img {
     position: absolute;
-    bottom:0;
-    right:0;
+    bottom: 0;
+    right: 0;
     width: 162px;
     height: 114px;
-    background: url("../../assets/images/car_3.png") no-repeat center;
+    background: url("../../assets/images/car.png") no-repeat center;
     background-size: contain;
 }
-.hero-btn{
+.hero-btn {
     width: 419px;
-    display:flex;
-    gap:40px;
+    display: flex;
+    gap: 40px;
     justify-content: space-between;
     align-items: center;
 }
-.hero-btn > p{
-    font-size:var(--font-size-lg);
+.hero-btn > p {
+    font-size: var(--font-size-lg);
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
 }
-.hero-content__desc{
+.hero-content__desc {
     width: 520px;
-    margin-top:100px;
+    margin-top: 100px;
 }
-.hero-content__desc-title{
-    display:flex;
+.hero-content__desc-title {
+    display: flex;
     align-items: center;
 }
-.hero-content__desc-title h3{
-    font-family: "Atkinson Bold" , sans-serif;
+.hero-content__desc-title h3 {
+    font-family: "Atkinson Bold", sans-serif;
     font-weight: 900;
     text-transform: uppercase;
-    color:var(--accent-color-500);
+    color: var(--accent-color-500);
 }
-.hero-content__desc-title__line{
-    margin-left:24px;
-   background-image: linear-gradient(to right, var(--accent-color-500) 33%, rgba(255,255,255,0) 0%);
-   background-size: 25px 3px;
-   background-repeat: repeat-x;
-   height: 3px;
-   width: 300px;
-   background-position: bottom;
+.hero-content__desc-title__line {
+    margin-left: 24px;
+    background-image: linear-gradient(
+        to right,
+        var(--accent-color-500) 33%,
+        rgba(255, 255, 255, 0) 0%
+    );
+    background-size: 25px 3px;
+    background-repeat: repeat-x;
+    height: 3px;
+    width: 300px;
+    background-position: bottom;
 }
-.hero-content__desc-title__circle{
-    margin-left:4px;
-    height:20px;
+.hero-content__desc-title__circle {
+    margin-left: 4px;
+    height: 20px;
     aspect-ratio: 1/1;
     border-radius: 50%;
     background: var(--accent-color-500);
 }
-.hero-content__desc p{
-    margin-top:16px;
+.hero-content__desc p {
+    margin-top: 16px;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size:var(--font-size-md);
-    color:var(--gray-color-100);
+    font-size: var(--font-size-md);
+    color: var(--gray-color-100);
 }
