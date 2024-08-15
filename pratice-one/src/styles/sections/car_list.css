@@ -18,14 +18,14 @@
 }
 .car_list-introduction__title .car_list-introduction__heading {
     color: var(--accent-color-500);
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 22px;
     font-weight: 400;
 }
 .car_list-introduction__title .car_list-introduction__subheading {
-    font-family: "Atkinson Bold", sans-serif;
+    font-family: 'Atkinson Bold', sans-serif;
     font-size: 52px;
     text-transform: uppercase;
     margin-top: 16px;

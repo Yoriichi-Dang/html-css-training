@@ -14,7 +14,7 @@
 }
 .hero-content h2 {
     color: var(--accent-color-500);
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 22px;
     font-weight: 500;
     text-transform: uppercase;
@@ -23,11 +23,11 @@
 .hero-content h1 {
     font-size: var(--font-size-5xl);
     text-transform: uppercase;
-    font-family: "Atkinson Bold", sans-serif;
+    font-family: 'Atkinson Bold', sans-serif;
 }
 
 .hero-img {
-    background: url("../../assets/images/hero.png") no-repeat left;
+    background: url('../../assets/images/hero.png') no-repeat left;
     background-size: cover;
     height: 838px;
     aspect-ratio: 1/1.15;
@@ -53,7 +53,7 @@
 .hero-img__sub-info h4 {
     color: var(--white-color);
     text-transform: uppercase;
-    font-family: "Akinton Bold", sans-serif;
+    font-family: 'Akinton Bold', sans-serif;
     font-size: 20px;
 }
 .hero-img__sub-info span {
@@ -65,7 +65,7 @@
     right: 0;
     width: 162px;
     height: 114px;
-    background: url("../../assets/images/car.png") no-repeat center;
+    background: url('../../assets/images/car.png') no-repeat center;
     background-size: contain;
 }
 .hero-btn {
@@ -77,7 +77,7 @@
 }
 .hero-btn > p {
     font-size: var(--font-size-lg);
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -90,7 +90,7 @@
     align-items: center;
 }
 .hero-content__desc-title h3 {
-    font-family: "Atkinson Bold", sans-serif;
+    font-family: 'Atkinson Bold', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
     color: var(--accent-color-500);
@@ -117,7 +117,7 @@
 }
 .hero-content__desc p {
     margin-top: 16px;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: var(--font-size-md);
     color: var(--gray-color-100);

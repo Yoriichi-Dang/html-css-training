@@ -19,7 +19,7 @@
     color: var(--gray-color-200);
     font-size: var(--font-size-base);
     font-weight: 700;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 /* btn hover */
 .btn:hover {
