@@ -8,6 +8,7 @@
 @import url(components/common/button.css);
 @import url(components/common/icon.css);
 @import url(components/card-car.css);
+@import url(components/card-review.css);
 
 @import url(layouts/header.css);
 @import url(layouts/navbar.css);
@@ -18,5 +19,6 @@
 @import url(sections/car-list.css);
 @import url(sections/why-choose-us.css);
 @import url(sections/brand.css);
+@import url(sections/testimonials.css);
 
 @import url(pages/home.css);
