@@ -26,6 +26,8 @@ pratice-one/
        ├── layouts/
        ├── pages/
        └── vendors/
+       └── sections/
+
 ```
 
 This tree represents the directory structure of the `pratice-one` project. It includes various files and directories related to HTML and CSS examples.
