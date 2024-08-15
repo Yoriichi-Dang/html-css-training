@@ -1,16 +1,15 @@
-header {
+.header {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
     padding: 6px 0;
 }
-
-.container {
-    width: 1200px;
+.header-content {
     display: flex;
-    justify-content: space-between;
+    width: 1200px;
+    justify-content: space-between; /* Optional, depending on your layout needs */
     align-items: center;
-    flex-wrap: wrap;
 }
 .logo {
     display: flex;
@@ -20,6 +19,7 @@ header {
     margin-left: 12px;
     font-family: 'Atkinson Bold', sans-serif;
     text-transform: uppercase;
+    color: var(--primary-color-500);
     font-size: var(--font-size-2xl);
 }
 .header-contact {
@@ -30,11 +30,5 @@ header {
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
     color: var(--gray-color-200);
-    font-size: 20px;
-}
-.header-contact span {
-    width: 16px;
-    height: 2px;
-    background: var(--gray-color-200);
-    margin-left: 12px;
+    font-size: 20px !important;
 }
