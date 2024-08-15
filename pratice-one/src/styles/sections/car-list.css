@@ -1,4 +1,4 @@
-.car_list {
+.car-list {
     background-color: #f2f4f9;
     width: 100%;
     display: flex;
@@ -6,17 +6,17 @@
     justify-content: center;
     padding: 100px 0;
 }
-.car_list-introduction {
+.car-list-introduction {
     min-width: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
 }
 
-.car_list-introduction__title {
+.car-list-introduction__title {
     width: 708px;
 }
-.car_list-introduction__title .car_list-introduction__heading {
+.car-list-introduction__title .car-list-introduction__heading {
     color: var(--accent-color-500);
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
@@ -24,13 +24,14 @@
     font-size: 22px;
     font-weight: 400;
 }
-.car_list-introduction__title .car_list-introduction__subheading {
+.car-list-introduction__title .car-list-introduction__subheading {
     font-family: 'Atkinson Bold', sans-serif;
     font-size: 52px;
     text-transform: uppercase;
     margin-top: 16px;
 }
 .cards {
+    cursor: pointer;
     margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);

@@ -1,13 +1,12 @@
 /* define btn */
 .btn {
-    background: var(--gray-color-300);
     display: flex;
     justify-content: center;
     align-items: center;
-    clip-path: polygon(0 0, 94% 0, 100% 22%, 100% 100%, 6% 100%, 0 77%);
     transition: all 0.3s ease;
     cursor: pointer;
 }
+
 .btn .btn__line {
     width: 16px;
     height: 2px;
@@ -21,15 +20,31 @@
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
 }
-/* btn hover */
-.btn:hover {
+/* define btn primary */
+.btn--primary {
+    background: var(--gray-color-300);
+    clip-path: polygon(0 0, 94% 0, 100% 22%, 100% 100%, 6% 100%, 0 77%);
+}
+/* btn primary hover */
+.btn--primary:hover {
     background: var(--secondary-color-500);
 }
-.btn:hover .btn__content {
+.btn--primary:hover .btn__content {
     color: var(--white-color);
 }
-.btn:hover .btn__line {
+.btn--primary:hover .btn__line {
     background: var(--white-color);
+    width: 32px;
+}
+/* define btn secondary */
+.btn--secondary {
+    background: transparent;
+}
+.btn--secondary:hover .btn__content {
+    color: var(--secondary-color-500);
+}
+.btn--secondary:hover .btn__line {
+    background: var(--secondary-color-500);
     width: 32px;
 }
 /* define btn icon */
@@ -40,6 +55,7 @@
     background: var(--secondary-color-100);
     border: 2px solid var(--secondary-color-500);
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 .btn-icon .icon {
     color: var(--secondary-color-500);
