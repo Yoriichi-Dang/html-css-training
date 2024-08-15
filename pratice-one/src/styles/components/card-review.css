@@ -1,0 +1,87 @@
+.card-review {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    display: flex;
+    width: 607px;
+    cursor: pointer;
+    background: #f2f4f9;
+    transition: all 0.3s ease-out;
+}
+.card-review:hover {
+    background: var(--white-color);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+.card-review__wrapper-img {
+    height: 100%;
+}
+.card-review__wrapper-img .card-review__image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.card-review__wrapper-img .img-left img {
+    width: 200%;
+    height: 200%;
+    object-fit: cover;
+}
+.card-review__wrapper-img .img-center img {
+    width: 280%;
+    object-fit: cover;
+    object-position: top -8px right 57px;
+}
+.card-review__content {
+    margin-left: 16px;
+}
+.card-review__content .card-review__name {
+    font-family: 'Atkinson Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: var(--font-size-md);
+    color: var(--primary-color-500);
+    margin-bottom: 8px;
+}
+.card-review__content .card-review__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: var(--font-size-base);
+    margin-bottom: 18px;
+    color: var(--gray-color-100);
+    transition: all 0.3s ease-out;
+}
+.card-review:hover .card-review__content .card-review__title {
+    color: var(--accent-color-500);
+}
+.card-review__content .card-review__desc {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: var(--font-size-base);
+    color: var(--gray-color-100);
+    margin-bottom: 16px;
+}
+
+.card-star {
+    display: flex;
+}
+.card-star-icon {
+    display: flex;
+    gap: 8px;
+}
+.card-star-icon__fill {
+    color: var(--secondary-color-500);
+    font-size: 20px;
+}
+.card-star .card-star-rating {
+    display: flex;
+    margin-left: 12px;
+    gap: 2px;
+}
+
+.card-star .card-star-rating .card-star-rating__star {
+    color: var(--secondary-color-500);
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--font-size-base);
+}
+.card-star .card-star-rating .card-star-rating__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--font-size-base);
+}
