@@ -15,7 +15,7 @@
     position: relative;
     width: 611px;
     height: 575px;
-    background: url("../../assets/images/driver.png") no-repeat;
+    background: url('../../assets/images/driver.png') no-repeat;
     background-size: 140%;
 
     background-position: center;
@@ -26,7 +26,7 @@
 }
 .about_us-content .about_us-content__title {
     color: var(--accent-color-500);
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -34,13 +34,13 @@
 }
 .about_us-content .about_us-content__subtitle {
     text-transform: uppercase;
-    font-family: "Atkinson Bold", sans-serif;
+    font-family: 'Atkinson Bold', sans-serif;
     font-size: 52px;
     margin-top: 16px;
 }
 .about_us-content .about_us-content__desc {
     color: var(--gray-color-100);
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: var(--font-size-md);
     line-height: 30px;
 }
@@ -61,7 +61,7 @@
 }
 
 .about_us-icon__item .about_us-icon__item-title {
-    font-family: "Atkinson Bold", sans-serif;
+    font-family: 'Atkinson Bold', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
     transition: all 0.3s ease-out;
@@ -91,7 +91,7 @@
 .about_us-profile__info .about_us-profile__img {
     width: 60px;
     height: 60px;
-    background: url("../../assets/images/restaurateur.png") no-repeat;
+    background: url('../../assets/images/restaurateur.png') no-repeat;
     background-size: 300%;
     border-radius: 50%;
     background-position: top left -49px;
@@ -99,12 +99,12 @@
 }
 .about_us-profile__info .about_us-profile__text .about_us-profile__name {
     margin-bottom: 8px;
-    font-family: "Atkinson Bold", sans-serif;
+    font-family: 'Atkinson Bold', sans-serif;
     text-transform: uppercase;
     font-size: var(--font-size-md);
 }
 .about_us-profile__info .about_us-profile__text .about_us-profile__position {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: var(--font-size-base);
     font-weight: 500;
     color: var(--accent-color-500);
@@ -112,5 +112,5 @@
 .about_us-profile .about_us-profile__signature {
     font-size: 36px;
     color: var(--accent-color-500);
-    font-family: "WindSong", sans-serif;
+    font-family: 'WindSong', sans-serif;
 }

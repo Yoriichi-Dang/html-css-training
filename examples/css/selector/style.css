@@ -1,39 +1,39 @@
 /* element selector */
 p {
-  text-align: center;
-  color: red;
+    text-align: center;
+    color: red;
 }
 /* id selector */
 #para1 {
-  text-align: center;
-  color: red;
+    text-align: center;
+    color: red;
 }
 /* class selector */
 .center {
-  text-align: center;
-  color: red;
+    text-align: center;
+    color: red;
 }
 p.center {
-  text-align: center;
-  color: red;
+    text-align: center;
+    color: red;
 }
 /* CSS Universal Selector */
 * {
-  text-align: center;
-  color: blue;
+    text-align: center;
+    color: blue;
 }
 /* CSS Grouping Selector */
 h1 {
-  text-align: center;
-  color: red;
+    text-align: center;
+    color: red;
 }
 
 h2 {
-  text-align: center;
-  color: red;
+    text-align: center;
+    color: red;
 }
 
 p {
-  text-align: center;
-  color: red;
+    text-align: center;
+    color: red;
 }

@@ -26,52 +26,9 @@ pratice-one/
 │       ├── layouts/
 │       ├── pages/
 │       └── vendors/
-└── examples/
-    ├── css/
-    │   ├── color/
-    │   │   └── index.html
-    │   ├── flexbox/
-    │   │   ├── flex-container/
-    │   │   └── flex-items/
-    │   └── selector/
-    │       └── style.css
-    └── html/
-        ├── form/
-        │   ├── index.html
-        │   ├── input_text.html
-        │   ├── radio_button.html
-        │   └── select_options.html
-        ├── images/
-        │   └── index.html
-        ├── link/
-        │   └── index.html
-        ├── list/
-        │   ├── index_2.html
-        │   └── index.html
-        ├── structure-html/
-        │   ├── index.html
-        │   ├── main.js
-        │   └── style.css
-        └── table/
-            └── index.html
 ```
 
 This tree represents the directory structure of the `pratice-one` project. It includes various files and directories related to HTML and CSS examples.
-
-## HTML Examples
-
--   **Forms**: Examples of different form elements like text inputs, radio buttons, and select options.
--   **Images**: Examples of how to use images in HTML.
--   **Links**: Examples of different types of links, including external links, internal links, and email links.
--   **Lists**: Examples of ordered and unordered lists.
--   **Tables**: Examples of HTML tables.
--   **Structure**: Example of a basic HTML structure with linked CSS and JavaScript files.
-
-## CSS Examples
-
--   **Color**: Examples of how to use colors in CSS.
--   **Flexbox**: Examples of using Flexbox for layout.
--   **Selectors**: Examples of different CSS selectors.
 
 ## Styles
 
@@ -83,6 +40,7 @@ The [`src/styles`]
 -   **Layouts**: Layout styles like header, footer, and navbar.
 -   **Pages**: Page-specific styles.
 -   **Vendors**: Third-party styles like Normalize.css.
+-   **sections**: Sections styles .
 
 ## Getting Started
 
