@@ -14,18 +14,18 @@ pratice-one/
 ├── .gitignore
 ├── README.md
 ├── src/
-│   ├── assets/
-│   │   └── fonts/
-│   ├── index.html
-│   └── styles/
-│       ├── base/
-│       │   ├── _base.css
-│       │   └── _font.css
-│       ├── components/
-│       ├── abstracts/
-│       ├── layouts/
-│       ├── pages/
-│       └── vendors/
+   ├── assets/
+   │   └── fonts/
+   ├── index.html
+   └── styles/
+       ├── base/
+       │   ├── _base.css
+       │   └── _font.css
+       ├── components/
+       ├── abstracts/
+       ├── layouts/
+       ├── pages/
+       └── vendors/
 ```
 
 This tree represents the directory structure of the `pratice-one` project. It includes various files and directories related to HTML and CSS examples.
