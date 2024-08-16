@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     padding: 190px 0;
+    background: var(--white-color);
 }
 .testimonials-wrapper {
     width: 1200px;
