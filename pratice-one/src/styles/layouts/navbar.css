@@ -55,13 +55,13 @@
     padding: 25px;
     width: 190px;
     display: none;
+    z-index: 1000;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 .navbar-parent__list li + li {
     margin-top: 20px;
 }
 
-.navbar-parent:hover .navbar-parent__list,
-.navbar-parent__list:hover {
+.navbar-parent:hover .navbar-parent__list {
     display: block;
 }
