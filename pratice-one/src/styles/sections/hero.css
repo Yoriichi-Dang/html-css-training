@@ -1,20 +1,16 @@
 .hero {
-    position: relative;
+    width: 100%;
+    margin-top: 32px;
+    padding-left: calc((100% - 1200px) / 2);
+}
+.hero-wrapper {
     width: 100%;
     display: flex;
-    justify-content: flex-end;
-    margin-top: 32px;
+    justify-content: flex-start;
 }
 .hero-container {
-    position: absolute;
-    width: 1200px;
-    height: auto; /* Adjust this if you have a specific height */
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .hero-content {
@@ -36,11 +32,16 @@
 }
 
 .hero-img {
-    background: url('../../assets/images/hero.png') no-repeat left;
-    background-size: cover;
-    height: 838px;
+    width: 100%;
     aspect-ratio: 1/1.15;
     position: relative;
+    overflow: hidden;
+}
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
 }
 .hero-img__sub {
     position: absolute;
