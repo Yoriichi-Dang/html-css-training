@@ -35,8 +35,12 @@
 .navbar-item:hover > span {
     width: 100%;
 }
+.navbar-parent .navbar-parent__link a {
+    color: var(--gray-color-200);
+}
 .navbar-parent:hover .navbar-parent__link,
-.navbar-item:hover a {
+.navbar-item:hover a,
+.navbar-parent:hover .navbar-parent__link a {
     color: var(--secondary-color-500);
 }
 .navbar-parent__link {
