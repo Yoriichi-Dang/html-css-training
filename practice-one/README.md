@@ -65,7 +65,7 @@ This tree represents the directory structure of the `pratice-one` project. It in
 1. Clone the project repository
 
 ```sh
-git clone [<repository-url>](https://github.com/Yoriichi-Dang/html-css-training.git)
+git clone https://github.com/Yoriichi-Dang/html-css-training.git
 ```
 
 2. Move to the project branch
