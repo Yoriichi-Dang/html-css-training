@@ -21,6 +21,7 @@ This project is a collection of HTML and CSS examples designed to help you pract
 -   Get familiar with common HTML tags and CSS styles, selectors
 -   Understanding Flex and Grid concepts
 -   Learn about how to deployment with Vercel
+-   Learn how to run project with parcel
 -   Learn how to analysis design, folder structure, git project management
 
 ## Technical Stack
