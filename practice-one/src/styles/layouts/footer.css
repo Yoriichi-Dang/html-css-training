@@ -87,6 +87,14 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.footer-item__content
+    :is(.footer-item__address, .footer-item__email, .footer-item__phone) {
+    font-style: normal;
+}
+.footer-item__content .footer-item__email a,
+.footer-item__content .footer-item__phone a {
+    color: var(--white-color);
+}
 @media screen and (max-width: 800px) {
     .footer__content {
         grid-template-columns: 1fr;

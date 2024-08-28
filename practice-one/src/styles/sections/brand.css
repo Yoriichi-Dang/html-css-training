@@ -3,11 +3,12 @@
     min-height: 180px;
     background: var(--primary-color-500);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 77px;
     padding: 60px 0;
 }
 .brand-wrapper {
+    min-width: 200px;
     display: flex;
     align-items: center;
     overflow: hidden;
