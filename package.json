@@ -1,5 +1,6 @@
 {
     "scripts": {
+        "start": "cd practice-one/src && npx parcel index.html",
         "format": "prettier --write ."
     },
     "devDependencies": {

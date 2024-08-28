@@ -71,6 +71,7 @@ git clone https://github.com/Yoriichi-Dang/html-css-training.git
 2. Move to the project branch
 
 ```sh
+cd html-css-training
 git checkout feature/practice-one
 ```
 
@@ -83,6 +84,5 @@ npm install
 4. Run project command
 
 ```sh
-cd practice-one/src
-npx parcel index.html
+npm start
 ```
