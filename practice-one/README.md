@@ -78,6 +78,7 @@ git checkout feature/practice-one
 3. Install node modules
 
 ```sh
+cd pratice-one
 npm install
 ```
 

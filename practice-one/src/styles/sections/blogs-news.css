@@ -1,6 +1,6 @@
 .blogs-news {
     width: 100%;
-    padding: 190px 0;
+    padding-bottom: 190px;
     background: var(--white-color);
     display: flex;
     justify-content: center;
